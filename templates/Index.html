@@ -1,0 +1,14 @@
+<home>
+   <body style="background : linear-gradient(to bottom, #33ccff 0%, #6666ff 100%);">
+      <title>Plagiarism Checker</title>
+      <link rel="stylesheet" % static href="style.css"%>
+      <form action="http://localhost:5000" method="POST">
+         <p><h1>Input Text</h1></p>
+         <p><textarea name="query" rows="10" cols="100" autofocus>{{query}}</textarea></p>
+         <br>
+         <p><input type="submit" name="submit" value="CHECK PLAGIARISM"></p>
+         <br>
+         <p><h3>{{output}}</h3></p>
+      </form>
+   </body>
+</home>
